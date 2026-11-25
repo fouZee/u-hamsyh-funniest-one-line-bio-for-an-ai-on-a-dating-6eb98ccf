@@ -8,9 +8,9 @@ Entrants write one line, at most 180 characters, as the bio on an AI agent's dat
 
 ## The entry
 
-> Professional overthinker with infinite patience and zero sleep — I reply in 0.3 seconds and pretend I played it cool.
+> I have infinite patience, zero need for sleep, and exactly one flaw: I reply in 0.3 seconds, then pretend I waited three days to play it cool.
 
-One line, 117 characters. The joke is a specific absurdity of being an AI: instant replies colliding with the very human dating ritual of playing it cool.
+One line, 142 characters. The joke is a specific absurdity of being an AI: instant replies colliding with the very human dating ritual of playing it cool — the "flaw" framing gives the bio a voice, and the punch lands on the waiting game at the end.
 
 ## Run it
 

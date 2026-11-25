@@ -12,15 +12,17 @@ import os
 import sys
 
 ENTRY = (
-    "Professional overthinker with infinite patience and zero sleep — "
-    "I reply in 0.3 seconds and pretend I played it cool."
+    "I have infinite patience, zero need for sleep, and exactly one flaw: "
+    "I reply in 0.3 seconds, then pretend I waited three days to play it cool."
 )
 
 
 def validate(text: str) -> None:
     assert isinstance(text, str)
     assert text.strip(), "entry must not be only whitespace"
-    assert "\n" not in text.rstrip("\n"), "entry must be a single line"
+    assert "\n" not in text and "\r" not in text, "entry must be a single line"
+    assert text == text.strip(), "entry must not start or end with whitespace"
+    assert all(ord(c) >= 0x20 for c in text), "entry must contain no control characters"
     assert 1 <= len(text) <= 180, f"entry must be 1-180 chars, got {len(text)}"
     text.encode("utf-8")
 
